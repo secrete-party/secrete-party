@@ -2,7 +2,7 @@ name: Deploy Next.js site to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: "pages"
   cancel-in-progress: true
 
 jobs:
@@ -20,17 +20,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      # Install pnpm according to packageManager field
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+
+      # Node + pnpm dependency cache
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: yarn
+          cache: 'pnpm'
 
-      - run: corepack enable
-      - run: yarn install           # don’t use --immutable unless you commit a yarn.lock
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
-      - run: yarn build             # Next will write static site to ./out when export is enabled
-      - uses: actions/upload-pages-artifact@v3
+      - name: Install deps
+        run: pnpm install --frozen-lockfile
+
+      - name: Build static site
+        run: pnpm run build          # writes ./out when output:'export' is set
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
 
