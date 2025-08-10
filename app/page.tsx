@@ -2,6 +2,7 @@ import ContributionForm from "@/components/contribution-form"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import CircularGraphic from "@/components/circular-graphic"
+import CyclingSlogans from "@/components/cycling-slogans"
 
 export default function Home() {
   return (
@@ -23,11 +24,13 @@ export default function Home() {
 
           <div className="mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Join the Experience</h2>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed mb-8">
               Help make this celebration unforgettable. Enter your contribution details below,
               <br />
               and we'll follow up via Venmo to complete the process.
             </p>
+
+            <CyclingSlogans />
           </div>
 
           <ContributionForm />
