@@ -19,16 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
+      - run: corepack enable
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'pnpm'
-
-      - run: corepack enable
       - run: pnpm install --frozen-lockfile
-      - run: pnpm run build   # writes static site to ./out
-
+      - run: pnpm run build    # writes static site to ./out
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
