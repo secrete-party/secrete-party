@@ -20,18 +20,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Use pnpm (you have a pnpm-lock.yaml)
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 9
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'pnpm'
 
+      - run: corepack enable
       - run: pnpm install --frozen-lockfile
-      - run: pnpm run build   # Next.js will output to ./out
+      - run: pnpm run build   # writes static site to ./out
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
