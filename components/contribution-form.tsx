@@ -119,11 +119,11 @@ export default function ContributionForm() {
 
         <div className="space-y-2">
           <Label htmlFor="name" className="text-sm font-medium text-gray-300">
-            Your Name *
+            Your Venmo Name *
           </Label>
           <Input
             id="name"
-            placeholder="Enter your full name"
+            placeholder="Venmo name"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
