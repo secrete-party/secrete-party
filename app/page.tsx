@@ -23,7 +23,7 @@ export default function Home() {
           </div>
 
           <div className="mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Join the Experience</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">The Womb Service Experience</h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed mb-8">
               Help make this celebration unforgettable. Enter your contribution details below,
               <br />
@@ -43,7 +43,7 @@ export default function Home() {
                 clipRule="evenodd"
               />
             </svg>
-            Your information is secure and will only be used for this contribution process.
+            "Your information has been ... protected ... encryption" -Denzaroo
           </div>
         </div>
       </section>
@@ -81,6 +81,8 @@ export default function Home() {
         </div>
       </section>
 
+
+      
       <Footer />
     </main>
   )
