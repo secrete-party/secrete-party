@@ -43,7 +43,7 @@ export default function Home() {
                 clipRule="evenodd"
               />
             </svg>
-            "Your information has been ... protected ... encryption" -Denzaroo
+            Your information has been 265 bit encryption
           </div>
         </div>
       </section>
@@ -56,12 +56,13 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-12">
             <div className="text-center">
               <div className="text-4xl font-bold text-purple-500 mb-4">1</div>
-              <h3 className="text-xl font-bold mb-4">Time for a Suite</h3>
+              <h3 className="text-xl font-bold mb-4">Let's Level Up</h3>
               <p className="text-gray-300 leading-relaxed">
                 It's time that our crew got a suite. We don't need to commit to doing art the whole time,
-                but Trash Chef proved that it's worth setting aside some time to schtick. Let's level up.
+                but Trash Chef proved that it's worth setting aside some time to schtick.
                 <br/><br/>
-                Also, we should have a gathering place where we can all hang out whenever we want!
+                And, when we're not schticking, wouldn't it be nice to have a dedicated gathering place where we can hang out,
+                stash stuff, take snack breaks, etc. anytime we want?
               </p>
             </div>
 
