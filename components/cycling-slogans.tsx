@@ -7,8 +7,10 @@ const slogans = [
   "Mild Cannibalism",
   "Human Milk Haloumi",
   "Cervix Selfies",
-  "The Mighty Vulvtron Robot",
   "Butthole Glitter (by Denzaroo)",
+  "The Mighty Vulvtron Robot",
+  "Fried Placenta Musubi",
+  "Tall Tall Tall Vagina",
 ]
 
 export default function CyclingSlogans() {
