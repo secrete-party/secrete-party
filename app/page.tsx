@@ -59,7 +59,7 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-4">Time for a Suite</h3>
               <p className="text-gray-300 leading-relaxed">
                 It's time that our crew got a suite. We don't need to commit to doing art the whole time,
-                but Trash Chef proved that we have fun taking some time to schtick. Let's level up.
+                but Trash Chef proved that it's worth setting aside some time to schtick. Let's level up.
                 <br/><br/>
                 Also, we should have a gathering place where we can all hang out whenever we want!
               </p>
@@ -69,12 +69,13 @@ export default function Home() {
               <div className="text-4xl font-bold text-purple-500 mb-4">2</div>
               <h3 className="text-xl font-bold mb-4">Donate</h3>
               <p className="text-gray-300 leading-relaxed">
-                Put in your info and we'll  
-                Venmo request your contribution (unless it's milk or placenta, which you can't venmo yet). 
-                If we have enough committed in time for either ticket sale, we'll try to book a
-                suite for our team. If there is not enough interest or if
-                we are not able to get a suite, everyone's money will be returned. If we end up with more contributions
-                than we need, we will return any extra money on a pro-rated basis.
+                Put in your info and we'll 
+                Venmo request your contribution (unless it's milk or placenta). 
+                If we have enough money for a suite in time for either ticket sale, we'll try to book one.
+                If there is not enough interest or if
+                they are all booked up, everyone's money will be returned.
+                If we get more contributions
+                than we need, we will return anything extra in proportion to the amount donated.
               </p>
             </div>
 
