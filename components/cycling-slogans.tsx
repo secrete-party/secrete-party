@@ -3,10 +3,10 @@
 import { useState, useEffect } from "react"
 
 const slogans = [
-"Fried Placenta Musubi",
+  "Fried Placenta Musubi",
   "Human Milk Haloumi",
   "Vacheezling (by Denzaroo)",
-  "Mild Cannibalism",
+  "Vulva Prints",
   "Cervix Selfies",
   "Butthole Glitter (by Denzaroo)",
   "Tall Tall Tall Vagina",
