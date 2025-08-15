@@ -60,7 +60,8 @@ export default function Home() {
               <p className="text-gray-300 leading-relaxed">
                 It's time that our crew got a suite. We don't need to commit to doing art the whole time,
                 but Trash Chef proved that it's worth setting aside some time to schtick.
-                <br/><br/>
+                <br/>
+                <br/>
                 And, when we're not schticking, wouldn't it be nice to have a dedicated gathering place where we can hang out,
                 stash stuff, take snack breaks, etc. anytime we want?
               </p>
@@ -77,6 +78,10 @@ export default function Home() {
                 they are all booked up, everyone's money will be returned.
                 If we get more contributions
                 than we need, we will return anything extra in proportion to the amount donated.
+                <br/>
+                <br/>
+                Please let us know if you would want to stay in a bedroom attached to the suite
+                and you'd be willing to chip in more (the regular price of a king/queen room at Bally's) to do so .
               </p>
             </div>
 
