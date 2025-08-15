@@ -3,14 +3,13 @@
 import { useState, useEffect } from "react"
 
 const slogans = [
-  "Vacheezling (by Denzaroo)",
-  "Mild Cannibalism",
-  "Human Milk Haloumi",
+  "Fried Placenta Musubi", 
   "Cervix Selfies",
-  "Butthole Glitter (by Denzaroo)",
+  "Vacheezling (by Denzaroo)",
   "The Mighty Vulvtron Robot",
-  "Fried Placenta Musubi",
+  "Human Milk Haloumi",
   "Tall Tall Tall Vagina",
+  "Butthole Glitter (by Denzaroo)",
 ]
 
 export default function CyclingSlogans() {
