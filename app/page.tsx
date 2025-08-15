@@ -59,7 +59,7 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-4">Let's Level Up</h3>
               <p className="text-gray-300 leading-relaxed">
                 It's time that our crew got a suite. We don't need to commit to doing art the whole time,
-                but Trash Chef proved that it's worth setting aside some time to schtick.
+                but our Trash Chef reality show proved that it's worth setting aside some time to schtick.
                 <br/>
                 <br/>
                 And, when we're not schticking, wouldn't it be nice to have a dedicated gathering place where we can hang out,
