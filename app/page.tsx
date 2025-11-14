@@ -15,7 +15,7 @@ export default function Home() {
           <h1 className="text-5xl md:text-7xl font-bold mb-16 tracking-tight">
             Your
             <br />
-            <span className="text-white">Secrete Contribution</span>
+            <span className="text-white">Secrete Spa</span>
           </h1>
 
           <div className="mb-20">
